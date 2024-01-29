@@ -1,0 +1,114 @@
+ @media screen and (min-width:601px) { 
+/* body {
+    font-family: Arial, sans-serif;
+    background-image: url(background\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+ }
+.form{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: rgba(201, 199, 199, 0.4);
+    margin-top: 17%;
+    height: 200px;
+    opacity: 0.9;
+}
+#width,#height{
+    width:270px;
+    height:30px;
+    font-size: 16px;
+    opacity: 0.8;
+}
+.name{
+    color:#f76a12;
+    font-weight: bold;
+}
+.add,.clear,.render,.generate{
+    width:270px;
+    height:35px;
+    margin:5px;
+    border-radius: 15px;
+    background-color: #e46f27;
+    font-weight: bold;
+    font-size: 14px;
+}
+.add:hover{
+    background-color: aliceblue;
+}
+.clear:hover{
+    background-color: rgb(228, 34, 34);
+}
+.render:hover{
+    background-color: rgb(94, 96, 217);
+}
+.generate:hover{
+    background-color: rgb(36, 183, 36);
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+#components {
+    margin-top: 20px;
+}
+.component {
+    background-color: #ee6917;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px;
+}
+.component input {
+    width: 50px;
+}
+.component .remove-button {
+    background-color: red;
+    color: white;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.component .remove-button:hover {
+    background-color: darkred;
+}
+    
+
+@media screen and (max-width:600px) {
+    body {
+        font-family: Arial, sans-serif;
+        background-image: url(background2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .form{
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+        background-color: rgb(7, 7, 7,0.4);
+        margin-top: 35%;
+        height: 350px;
+        width: 250px;
+        opacity: 0.8;
+    }
+    #width,#height{
+        width:240px;
+        height:30px;
+        font-size: 16px;
+        opacity: 0.8;
+    }
+    .name{
+        color:#12f3f7;
+        font-weight: bold;
+    }
+    .add,.clear,.render,.generate{
+        width:200px;
+        height:33px;
+        margin:5px;
+        border-radius: 18px;
+        background-color: #16bec7;
+        font-weight: bold;
+        font-size: 14px;
+    }
+}

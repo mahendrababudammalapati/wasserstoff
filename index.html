@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+        <form  id="component-form">
+            <label for="width" class="name">Width:</label>
+            <input type="number" id="width" name="width" min="1" max="8">
+            <label for="height" class="name">Height:</label>
+            <input type="number" id="height" name="height" min="1"><br><br>
+           <center> <button type="submit" class="add">Add Component</button>
+            <button id="clear-button" class="clear">Clear Components</button><br><br>
+            <button id="render-button" class="render">Render Components</button>
+            <button class="generate">generate Website</button></center>
+        </form>
+        <div id="components"></div>    
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
